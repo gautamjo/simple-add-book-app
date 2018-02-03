@@ -1,0 +1,58 @@
+body {
+    background-color: #AEB6BF;
+}
+
+h1 {
+    color: #34495E;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    color: #34495E;
+    font-family: 'Playfair Display', serif;
+}
+
+td {
+    color: steelblue;
+}
+
+th {
+    color: #34495E;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#submit-btn:hover {
+    background-color: #34495E;
+    color: white;
+}
+
+.success,
+.error {
+    color: white;
+    padding: 5px;
+    margin: 5px 15px 0;
+}
+
+.success {
+    background: green
+}
+
+.error {
+    background: red;
+}
+
+.delete {
+    color: #34495E;
+}
+
+.delete:hover {
+    color: red;
+}

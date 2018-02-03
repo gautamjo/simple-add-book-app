@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans+Condensed:300|Oswald|Playfair+Display|Raleway|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Book List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Add Book</h1>
+        <form id="book-form">
+            <div>
+                <label for="title">Title</label>
+                <input type="text" id="title" class="u-full-width">
+            </div>
+            <div>
+                <label for="author">Author</label>
+                <input type="text" id="author" class="u-full-width">
+            </div>
+            <div>
+                <label for="isbn">ISBN</label>
+                <input type="text" id="isbn" class="u-full-width">
+            </div>
+            <div>
+                <input type="submit" value="submit" class="u-full-width" id="submit-btn">
+            </div>
+        </form>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
