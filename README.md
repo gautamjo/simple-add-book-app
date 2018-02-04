@@ -1,1 +1,2 @@
-# simple-add-book-app
+# simple 'add book' app
+This app persists to local storage
